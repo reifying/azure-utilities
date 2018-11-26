@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER=$1
-KEY=$2
+KEY="$2 $3 $4"
 
 SUDO_FILE=/etc/sudoers.d/91-admin-users
 
